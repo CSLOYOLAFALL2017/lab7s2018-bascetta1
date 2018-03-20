@@ -2,12 +2,21 @@
 #Parameters: None
 #Return: file name
 
+import os
+filename = input("Please enter the file name here > ")
+while not os.path.exists( Movie File)
+
+
+movies_file = open("movies.csv", "r")
 
 
 
 #Function's purpose: Process the file
 #Parameters: file name of file to read from
 #Return: The maximum profit
+
+def process (movies.csv)
+
 
 
 

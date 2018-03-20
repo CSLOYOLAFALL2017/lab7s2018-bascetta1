@@ -20,7 +20,10 @@ You need to design, write, and test a program that calculates information about 
 Your program MUST ask for the following information from the user: the name of the input file, and the name of the output file.
 
 ###Error Checking
-Unfortunately, you don't really trust your user to follow the directions in your program, so you need to protect your program from bad user input.  You must do this in two ways: use a loop to continue asking for a file name until you are given one that exists for the input file, and use try/except to ensure that your program does not crash if the file disappears while your program runs. You do NOT need to check the name of the output file, because Python creates your output file for you if it doesn't exist.
+Unfortunately, you don't really trust your user to follow the directions in your program, so you need to protect your program
+from bad user input.  You must do this in two ways: use a loop to continue asking for a file name until you are given one that
+exists for the input file, and use try/except to ensure that your program does not crash if the file disappears while your program runs.
+You do NOT need to check the name of the output file, because Python creates your output file for you if it doesn't exist.
 
 ###Output
 For the file output, your program must output to a new file the release date, name, and profit of each movie. This information should be comma delimited (i.e. have a comma separating each value). There should be one movie per line. You can use sep="" in your print statement to control what is output between each value.
@@ -29,7 +32,8 @@ The console (screen) output should contain the name and profit for the movie wit
 Note that output to the console means using standard output that we've been using all semester.
 
 ###Input Files
-The input file looks like this: Release date, movie title, budget, box office gross. Each line of the file is a single movie with information in this order. You can open the file and look at it.
+The input file looks like this: Release date, movie title, budget, box office gross.
+Each line of the file is a single movie with information in this order. You can open the file and look at it.
 
 Note that profit is NOT one of the values in your file! You must calculate this for each movie.
 
