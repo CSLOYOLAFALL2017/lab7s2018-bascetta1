@@ -45,10 +45,15 @@ mostprofit(file_open)
 # create a function to process the file to read and write to
 
 
-def output(file_open, output_file):
+def process(file_open, data_file):
+    movies_file = open(file_open, "r")
+    data_file = open("data.txt", "w")
+    print("The revenue for the movie is", file=data_file)
 
 
-def process():
+# create a function to verify the output
+def verify_output():
+
     valid_output = input("Input a filename to output to > ")
     while not os.path.exists(valid_output):
         valid_output = input("Please enter a valid filename > ")
