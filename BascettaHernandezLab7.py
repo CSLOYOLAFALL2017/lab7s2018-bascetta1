@@ -61,11 +61,7 @@ def verify_output():
     return valid_output
 
 
-
-
-
-
-
+# create a main function
 
 
 def main():
